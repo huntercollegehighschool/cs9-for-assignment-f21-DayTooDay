@@ -20,4 +20,5 @@ def main():
     import part4
 
 if __name__ == '__main__':
+  os.system('clear')
   main()
