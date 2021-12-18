@@ -18,4 +18,13 @@ Enter the height: 3
 
 """
 
-base = int(input("Enter the base of the rectangle: "))
+base = int(input("Enter the base: "))
+height = int(input("Enter the height: "))
+
+print("")
+
+for i in range(height):
+    print('*' * base)
+
+print("")
+
